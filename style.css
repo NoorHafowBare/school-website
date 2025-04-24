@@ -1,0 +1,119 @@
+li{
+  list-style: none;
+}
+nav{
+  background-color: gold;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  justify-content: end;
+}
+nav li a{
+  text-decoration: none;
+}
+.hero{
+  background: url('https://images.pexels.com/photos/301926/pexels-photo-301926.jpeg?auto=compress&cs=tinysrgb&w=600') center/cover no-repeat;
+  color: white;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-content{
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 32px;
+  border-radius: 8px;
+}
+
+.hero-content h1{
+  font-size: 40px;
+  color: aliceblue;
+  margin-bottom: 16px;
+}
+.hero-content p{
+  font-size: 12px;
+  margin-bottom: 16px;
+  color: white;
+}
+.btn{
+  padding: 8px;
+  background-color: gold;
+  color: red;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.7s;
+}
+.btn:hover{
+  background-color: black;
+  color: white;
+}
+
+.about-section{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4rem 2rem;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}
+.about-text{
+  flex: 1;
+  padding: 1rem;
+  max-width: 500px;
+}
+.about-image{
+  flex: 1;
+  padding: 1rem;
+}
+.about-image img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.footer{
+  background-color: #0a0a23;
+  color: #fff;
+  padding: 3rem 1rem 1rem;
+  margin-top: 3rem;
+  font-size: 0.95rem;
+}
+.footer-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: auto;
+  
+}
+.footer-section{
+  flex: 1 1 220px;
+}
+.footer-section h3{
+  color: white;
+  margin-bottom: 1rem;
+}
+.footer-section ul{
+  list-style: none;
+  padding: 0;
+}
+.footer-section ul li{
+  margin-bottom: 0.5rem;
+}
+.footer-section ul li a{
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.7s;
+}
+.footer-section ul li a:hover{
+  color: orangered;
+  text-decoration: underline;
+}
+.footer-bottom{
+  text-align: center;
+  padding-top: 1rem;
+  
+
+}
